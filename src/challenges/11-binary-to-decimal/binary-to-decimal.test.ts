@@ -1,4 +1,5 @@
 import toDecimal from "./binary-to-decimal";
+import { expect, test } from 'vitest'
 
 test('toDecimal', () => {
 	expect(toDecimal("101")).toBe(5)

@@ -1,4 +1,6 @@
 import count from "./vowels-consonants"
+import { expect, test } from 'vitest'
+
 test('vowels-consonans', () => {
 	expect(count("Hello World")).toStrictEqual([3, 7])
 	expect(count("JavaScript")).toStrictEqual([3, 7])

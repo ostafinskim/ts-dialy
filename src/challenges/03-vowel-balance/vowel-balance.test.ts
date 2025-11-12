@@ -1,4 +1,5 @@
 import isBalanced from "./vowel-balance";
+import { expect, test } from 'vitest'
 
 test('isBalanced', () => {
 	expect(isBalanced("racecar")).toBe(true);

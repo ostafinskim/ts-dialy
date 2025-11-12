@@ -1,4 +1,5 @@
 import signatureValidation from "./signature-validation";
+import { expect, test } from 'vitest'
 
 test('signatureValidation', () => {
 	expect(signatureValidation("foo", "bar", 57)).toBe(true)

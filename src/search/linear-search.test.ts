@@ -1,3 +1,4 @@
+import { expect, test } from 'vitest'
 import linear_search from "./linear-search";
 
 test("linear search array", function () {

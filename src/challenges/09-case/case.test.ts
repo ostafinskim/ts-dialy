@@ -1,4 +1,5 @@
 import changeCase from "./case";
+import { expect, test } from 'vitest'
 
 test('case change', () => {
 	expect(changeCase('hello_world')).toBe('HeLlO~wOrLd')

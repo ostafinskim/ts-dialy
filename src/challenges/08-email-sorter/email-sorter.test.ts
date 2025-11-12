@@ -1,4 +1,5 @@
 import sort from "./email-sorter";
+import { expect, test } from 'vitest'
 
 test('email sort', () => {
 	expect(sort(["jill@mail.com", "john@example.com", "jane@example.com"])).toStrictEqual(["jane@example.com", "john@example.com", "jill@mail.com"]),

@@ -1,4 +1,5 @@
 import wiseSpeak from "./speak-wisely";
+import { expect, test } from 'vitest'
 
 test(() => {
 	expect(wiseSpeak("You must speak wisely.")).toEqual("Speak wisely, you must.")

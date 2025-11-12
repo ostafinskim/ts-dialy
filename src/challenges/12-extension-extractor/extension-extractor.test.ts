@@ -1,6 +1,6 @@
 import getExtension from "./extension-extractor"
+import { expect, test } from 'vitest'
 
-getExtension
 test('getExtension', () => {
 	expect(getExtension("document.txt")).toBe("txt")
 	expect(getExtension("README")).toBe("none")
